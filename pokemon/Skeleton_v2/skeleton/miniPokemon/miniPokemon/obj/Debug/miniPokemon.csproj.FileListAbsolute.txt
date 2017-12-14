@@ -1,0 +1,14 @@
+C:\Users\danae\Desktop\skeleton\miniPokemon\miniPokemon\bin\Debug\miniPokemon.exe.config
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\obj\Debug\miniPokemon.csprojResolveAssemblyReference.cache
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\miniPokemon.exe.config
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\miniPokemon.exe
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\miniPokemon.pdb
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\mscorlib.dll
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\normidna.nlp
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\normnfc.nlp
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\normnfd.nlp
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\normnfkc.nlp
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\bin\Debug\normnfkd.nlp
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\obj\Debug\miniPokemon.exe
+C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon\miniPokemon\obj\Debug\miniPokemon.pdb
