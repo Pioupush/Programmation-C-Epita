@@ -8,39 +8,40 @@ namespace miniPokemon
     {
         #region Constructor
 
+        //attribute
         private string name;
-        
-        public Animal(string name)
-        {
-            this.name = name;
-        }
 
+        //getter & setter
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
 
+        public Animal(string name)
+        {
+            this.name = name;
+        }
+
         #endregion Constructor
-        
+
         #region Methods
 
         public virtual void WhoAmI()
         {
-            Console.WriteLine("i am bidule");
+            Console.WriteLine("I am an amimal !");
         }
 
         public virtual void Describe()
         {
-            Console.WriteLine("machin avec plein de plus" +name);
+            Console.WriteLine("My name is " + Name + ".");
         }
 
         public void Rename(string NewName)
         {
-            name = NewName;
+            Name = NewName;
         }
 
         #endregion Methods
-        
     }
 }
