@@ -15,7 +15,6 @@ namespace miniPokemon
         public string Name
         {
             get { return name; }
-            set { name = value; }
         }
 
         public Animal(string name)

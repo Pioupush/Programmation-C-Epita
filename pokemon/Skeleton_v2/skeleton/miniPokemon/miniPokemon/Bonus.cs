@@ -1,16 +1,20 @@
 ﻿using System;
+using System.Data.SqlTypes;
 using System.Runtime.CompilerServices;
+using System.Threading;
+using miniPokemon;
 
 namespace miniPokemon
 {
     public class Bonus
     {
-        public static string Beginning()
+        public static int Beginning()
         {
             Console.WriteLine("welcome");
             Console.WriteLine("Wanna play Epimon?");
             Console.WriteLine("1- yes    2- no");
             int a = Console.Read();
+            a = Console.Read();    
             while (a != 1 || a != 2)
             {
                 Console.WriteLine("Choose 1 or 2 is that hard you dumbass?");
@@ -28,23 +32,26 @@ namespace miniPokemon
                               "your friend?");
             s2 = Console.ReadLine();
             Console.WriteLine("Oh yes but ''PTDR T ki twa?'' ");
+            Thread.Sleep(3000);
+            Console.WriteLine("I'm joking lets begin !");
+            Thread.Sleep(1000);
+            Console.Clear();
         }
 
-        public static BonusPoke Acdc()
+        public static int Choose_class(string s)
         {
-            Console.WriteLine("So you chose an ACDC. Wich one would you like?");
-            Console.WriteLine("1- Thomas      2-Charles");
-            Console.WriteLine("3- Silvanosky  4- Tetra");
-            int s = 0;
-            while (s < 1 || s > 4)
+            Console.WriteLine("OK wich class would you like your pokemon to be?");
+            Console.WriteLine("1- ACDC    2- Admin");
+            Console.WriteLine("3- C1      4- ");
+            int a = Console.Read();
+            a = Console.Read();
+            while (a < 1 || a > 4 )
             {
                 Console.WriteLine("Choose between 1 and 4 is that hard you dumbass?");
-                s = Console.Read();
+                a = Console.Read();    
             }
-            if (s == 1)
-            BonusPoke thomas = new BonusPoke("thomas" , BonusPoke.BonusType.ACDC);
-            Trainer tom = new Trainer("Tom", 19);
-
+            Console.Clear();
+            return a;
         }
         
         

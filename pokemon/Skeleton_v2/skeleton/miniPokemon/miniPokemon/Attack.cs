@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
 namespace miniPokemon
@@ -12,7 +13,8 @@ namespace miniPokemon
         private int speed;
         private int damage;
         private string description;
-        private BonusPoke.BonusType type;
+        private Pokebonus.TypeBonus type;
+        
         
         //getter & setter
         public int Speed
@@ -22,7 +24,7 @@ namespace miniPokemon
         }
 
         public Attack(string name, int damage, int speed, 
-            BonusPoke.BonusType type, string description)
+            Pokebonus.TypeBonus type, string description)
         {
             this.name = name;
             this.damage = damage;
@@ -40,7 +42,7 @@ namespace miniPokemon
             Console.WriteLine(name);
         }
 
-        public virtual BonusPoke.BonusType Type()
+        public virtual Pokebonus.TypeBonus Type()
         {
             return type;
         }

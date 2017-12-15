@@ -5,56 +5,102 @@ using System.Security.Cryptography;
 
 namespace miniPokemon
 {
-    class BonusPoke : Animal
+    public class Pokebonus : Animal
     {
-
-        public enum BonusType
+        public enum TypeBonus
         {
             ACDC,
+            Effray,
             C1,
-            Algo,
-            Archi
+            Algo
         };
 
-        
         #region Constructor
-        
-        //attributes
-        private List<Attack> listAttack;
-        private BonusType type;
-        
-        //get & set
 
-        
-        
-        public BonusPoke(string name, BonusType type)
-        : base(name)
+        private int life;
+        private int damage;
+        private TypeBonus typebonus;
+        private bool isKO = false;
+        private int maxlife;
+        private List<Attack> ListAttack;  
+
+        public Pokebonus(string name, int life, int maxlife, int damage, TypeBonus typebonus)
+            : base(name)
         {
-
-            listAttack = new List<Attack>();
-            this.type = type;
+            this.life = life;
+            this.damage = damage;
+            this.typebonus = typebonus;
+            this.maxlife = maxlife;
+            ListAttack = new List<Attack>();
         }
-        
+
         #endregion Constructor
-        
+
+
         #region Methods
-        
-        public List<Attack> AddAttacks(Attack a)
+
+        public override void WhoAmI()
         {
-            while (listAttack.Count < 5)
+            Console.WriteLine("I'm a Pokemon");
+        }
+
+        public override void Describe()
+        {
+            Console.Write("My name is " + Name + " I'm a Pokemon of type ");
+            Console.WriteLine(typebonus);
+        }
+
+
+        public int Attack()
+        {
+            return damage;
+        }
+
+        public void GetHurt(int damageIn)
+        {
+            life = life - damageIn;
+            if (life < 0)
             {
-                if(a.Type() == type)
-                    listAttack.Add(a);
-                else
-                    Console.WriteLine("Choose an attack of type "+type);
-                 
-                
+                life = 0;
+                IsKO = true;
             }
-            return listAttack;
+        }
+
+        public void Heal(int life) 
+        {
+            Life = life + Life;
+            if (life > maxlife)
+                life = maxlife;
+            if (Life > 0)
+                IsKO = false;
         }
         
+        public int Maxlife
+        {
+            get { return maxlife; }
+            set { maxlife = value; }
+        }
+
+
+        public int Life
+        {
+            get { return life; }
+            set { life = value; }
+        }
+
+        public bool IsKO
+        {
+            get { return isKO; }
+            set { isKO = value; }
+        }
         
-        
+
+        public TypeBonus Typebonus
+        {
+            get { return typebonus; }
+            set { typebonus = value; }
+        }
+
         #endregion Methods
     }
 }

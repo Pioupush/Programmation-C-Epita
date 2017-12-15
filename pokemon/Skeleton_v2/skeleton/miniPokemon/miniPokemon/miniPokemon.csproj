@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bonus.cs" />
-    <Compile Include="BonusPoke.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Attack.cs" />
+    <Compile Include="BonusPoke.cs" />
+    <Compile Include="ChoosePoke.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

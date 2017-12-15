@@ -34,6 +34,8 @@ namespace miniPokemon
             get { return isKO; }
             set { isKO = value; }
         }
+        
+        
 
 
         public Pokemon(string name, int life, int damage, Poketype poketype)
