@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Puch family\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_miniPokemon.-1414928891.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Puch family\Desktop\prog\pokemon\Skeleton_v2\skeleton\miniPokemon" t="IncludeFlat">
+    <e p="C:\Users\Puch family\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_miniPokemon.301613039.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Puch family\Desktop\Programmation-C-Epita\pokemon\Skeleton_v2\skeleton\miniPokemon" t="IncludeFlat">
       <e p="miniPokemon" t="IncludeRecursive">
         <e p="Animal.cs" t="Include" />
         <e p="App.config" t="Include" />
+        <e p="Attack.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Bonus.cs" t="Include" />
+        <e p="BonusPoke.cs" t="Include" />
         <e p="miniPokemon.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Pokemon.cs" t="Include" />

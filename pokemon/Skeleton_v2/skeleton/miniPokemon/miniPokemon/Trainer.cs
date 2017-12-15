@@ -49,7 +49,7 @@ namespace miniPokemon
             Console.Write("My name is " +Name);
             Console.Write(" I'm " + age);
             Console.Write(" and I have ");
-            Console.Write(+(NumberOfPokemon()));
+            Console.Write(NumberOfPokemon());
             Console.WriteLine(" Pokemon !");
         }
 

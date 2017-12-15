@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2017.2/system/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_Exceptions.968735999.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\Puch family\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Exceptions.-43573137.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Puch family\Desktop\Programmation-C-Epita\pokemon\Skeleton_v2\skeleton\Exceptions" t="IncludeFlat">
       <e p="Exceptions" t="IncludeRecursive">
         <e p="Base.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="Exceptions.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="Exceptions.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

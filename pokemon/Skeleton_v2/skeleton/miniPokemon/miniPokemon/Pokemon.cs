@@ -77,7 +77,7 @@ namespace miniPokemon
             if (life < 0)
             {
                 life = 0;
-                isKO = true;
+                IsKO = true;
             }
         }
 
@@ -85,7 +85,7 @@ namespace miniPokemon
         {
             Life = life + Life;
             if (Life > 0)
-                isKO = false;
+                IsKO = false;
         }
 
         #endregion Methods
